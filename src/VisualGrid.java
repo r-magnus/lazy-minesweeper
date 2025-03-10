@@ -95,7 +95,7 @@ public class VisualGrid {
         if (neighbor.isMine && !neighbor.flagged) {
           canBreak = false;
         }
-      }
+      } // TESTING STUB
       if (canBreak) { // If so, break neighbors.
         for (Tile neighbor : t.neighbors) {
           neighbor.explored = true;
